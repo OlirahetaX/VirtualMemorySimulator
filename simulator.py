@@ -16,6 +16,7 @@ def imprimir_mapa_memoria(estado_memoria, frames):
         line += f"{pagina}({estado}) "
     print(line.strip())
     print("-" * 40)
+    
 
 def correr_simulaciones(referencias):
     init(autoreset=True)
